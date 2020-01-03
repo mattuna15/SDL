@@ -74,6 +74,9 @@ extern int SDL_AppleTVRemoteOpenedAsJoystick;
 #if !TARGET_OS_TV
         self.multipleTouchEnabled = YES;
         SDL_AddTouch(directTouchId, SDL_TOUCH_DEVICE_DIRECT, "");
+        
+        UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(swipeGesture:)];
+        [self addGestureRecognizer: longPress];
 #endif
     }
 
@@ -338,6 +341,12 @@ extern int SDL_AppleTVRemoteOpenedAsJoystick;
             }
         }
     }
+}
+#else
+
+-(void)swipeGesture:(UISwipeGestureRecognizer *)gesture
+{
+    SDL_SendKeyboardKey(SDL_PRESSED, SDL_SCANCODE_MENU);
 }
 #endif /* TARGET_OS_TV */
 

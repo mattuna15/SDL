@@ -205,6 +205,9 @@ extern DECLSPEC SDL_bool SDLCALL SDL_HasScreenKeyboardSupport(void);
  *  \sa SDL_HasScreenKeyboardSupport()
  */
 extern DECLSPEC SDL_bool SDLCALL SDL_IsScreenKeyboardShown(SDL_Window *window);
+    
+    /* Send a keyboard key event */
+extern int SDL_SendKeyboardKey(Uint8 state, SDL_Scancode scancode);
 
 /* Ends C function definitions when using C++ */
 #ifdef __cplusplus

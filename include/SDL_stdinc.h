@@ -368,6 +368,10 @@ typedef void *(SDLCALL *SDL_calloc_func)(size_t nmemb, size_t size);
 typedef void *(SDLCALL *SDL_realloc_func)(void *mem, size_t size);
 typedef void (SDLCALL *SDL_free_func)(void *mem);
 
+#ifdef __APPLE__
+    void memset_pattern4(void *__b, const void *__pattern4, size_t __len);
+#endif
+
 /**
  *  \brief Get the current set of SDL memory functions
  */

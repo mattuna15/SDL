@@ -4,17 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>All-iOS.xcscheme_^#shared#^_</key>
+		<key>All-iOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>All-tvOS.xcscheme_^#shared#^_</key>
+		<key>All-tvOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>PrepareXcodeProjectTemplate.xcscheme_^#shared#^_</key>
+		<key>PrepareXcodeProjectTemplate.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>8</integer>
@@ -29,22 +29,22 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>libSDL-tvOS-dylib.xcscheme_^#shared#^_</key>
+		<key>libSDL-tvOS-dylib.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
-		<key>libSDL-tvOS.xcscheme_^#shared#^_</key>
+		<key>libSDL-tvOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>libSDLmain-iOS.xcscheme_^#shared#^_</key>
+		<key>libSDLmain-iOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
-		<key>libSDLmain-tvOS.xcscheme_^#shared#^_</key>
+		<key>libSDLmain-tvOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>7</integer>

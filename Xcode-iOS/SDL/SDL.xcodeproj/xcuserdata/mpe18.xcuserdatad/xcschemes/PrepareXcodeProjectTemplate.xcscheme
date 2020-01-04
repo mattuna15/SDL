@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F3E3C6592241389A007D243C"
-               BuildableName = "libSDL2.dylib"
-               BlueprintName = "libSDL-tvOS-dylib"
+               BlueprintIdentifier = "00B4F48B12F6A69C0084EC00"
+               BuildableName = "PrepareXcodeProjectTemplate"
+               BlueprintName = "PrepareXcodeProjectTemplate"
                ReferencedContainer = "container:SDL.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,8 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -45,14 +43,12 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F3E3C6592241389A007D243C"
-            BuildableName = "libSDL2.dylib"
-            BlueprintName = "libSDL-tvOS-dylib"
+            BlueprintIdentifier = "00B4F48B12F6A69C0084EC00"
+            BuildableName = "PrepareXcodeProjectTemplate"
+            BlueprintName = "PrepareXcodeProjectTemplate"
             ReferencedContainer = "container:SDL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -63,9 +59,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F3E3C6592241389A007D243C"
-            BuildableName = "libSDL2.dylib"
-            BlueprintName = "libSDL-tvOS-dylib"
+            BlueprintIdentifier = "00B4F48B12F6A69C0084EC00"
+            BuildableName = "PrepareXcodeProjectTemplate"
+            BlueprintName = "PrepareXcodeProjectTemplate"
             ReferencedContainer = "container:SDL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

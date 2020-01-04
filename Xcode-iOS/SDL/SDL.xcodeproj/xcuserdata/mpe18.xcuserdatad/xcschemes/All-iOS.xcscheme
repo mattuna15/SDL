@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F3E3C56022406928007D243C"
-               BuildableName = "libSDLmain.a"
-               BlueprintName = "libSDLmain-iOS"
+               BlueprintIdentifier = "C143576D1F4C4DAA000B792B"
+               BuildableName = "All-iOS"
+               BlueprintName = "All-iOS"
                ReferencedContainer = "container:SDL.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,8 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -45,14 +43,12 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F3E3C56022406928007D243C"
-            BuildableName = "libSDLmain.a"
-            BlueprintName = "libSDLmain-iOS"
+            BlueprintIdentifier = "C143576D1F4C4DAA000B792B"
+            BuildableName = "All-iOS"
+            BlueprintName = "All-iOS"
             ReferencedContainer = "container:SDL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -63,9 +59,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F3E3C56022406928007D243C"
-            BuildableName = "libSDLmain.a"
-            BlueprintName = "libSDLmain-iOS"
+            BlueprintIdentifier = "C143576D1F4C4DAA000B792B"
+            BuildableName = "All-iOS"
+            BlueprintName = "All-iOS"
             ReferencedContainer = "container:SDL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

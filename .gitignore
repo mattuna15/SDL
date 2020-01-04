@@ -1,6 +1,5 @@
 Xcode-iOS/Demos/Demos.xcodeproj/project.xcworkspace/contents.xcworkspacedata
 Xcode-iOS/Demos/Demos.xcodeproj/project.xcworkspace/xcuserdata/mpe18.xcuserdatad/UserInterfaceState.xcuserstate
-Xcode-iOS/Demos/Demos.xcodeproj/xcuserdata/mpe18.xcuserdatad/xcschemes/xcschememanagement.plist
 Xcode-iOS/SDL/build/SDL.build/Release-iphoneos/libSDL-iOS.build/all-product-headers.yaml
 Xcode-iOS/SDL/build/SDL.build/Release-iphoneos/libSDL-iOS.build/SDL2-all-non-framework-target-headers.hmap
 Xcode-iOS/SDL/build/SDL.build/Release-iphoneos/libSDL-iOS.build/SDL2-all-target-headers.hmap
@@ -365,4 +364,3 @@ Xcode-iOS/SDL/output/iOS/debug/libSDL2.a
 Xcode-iOS/SDL/output/iOS/release/libSDL2.a
 Xcode-iOS/SDL/SDL.xcodeproj/project.xcworkspace/contents.xcworkspacedata
 Xcode-iOS/SDL/SDL.xcodeproj/project.xcworkspace/xcuserdata/mpe18.xcuserdatad/UserInterfaceState.xcuserstate
-Xcode-iOS/SDL/SDL.xcodeproj/xcuserdata/mpe18.xcuserdatad/xcschemes/xcschememanagement.plist

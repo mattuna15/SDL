@@ -495,18 +495,6 @@ SDL_LoadLaunchImageNamed(NSString *name, int screenh)
     NSURL *fileURL = url.filePathURL;
     if (fileURL != nil) {
         SDL_SendDropFile(NULL, fileURL.path.UTF8String);
-        
-        NSString *path = NSHomeDirectory();
-        path = [path stringByAppendingPathComponent:@"Documents"];
-        path = [path stringByAppendingPathComponent:fileURL.lastPathComponent];
-        
-        NSError *error;
-        
-        //remove old file.
-        [[NSFileManager defaultManager] removeItemAtPath:path error:&error];
-        [[NSFileManager defaultManager] moveItemAtPath:fileURL.path toPath:path error:&error];
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"FileSaved" object:path];
-        
     } else {
         SDL_SendDropFile(NULL, url.absoluteString.UTF8String);
     }
